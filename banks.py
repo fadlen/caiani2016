@@ -16,3 +16,16 @@ class Banks:
     
     def __init__(self):
         self.account = 0
+        self.girointerestrate = 0.01
+        self.creditinterestrate = 0.05
+    
+    #def customers(self):
+        #Ergebnisse aus dem depositmarket
+        
+    
+    #Return-Methoden
+    def getGirointeresrate(self):
+        return self.girointerestrate
+    
+    def getCreditinterestrate(self):
+        return self.creditinterestrate

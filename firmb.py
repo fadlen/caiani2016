@@ -17,3 +17,4 @@ class FirmB:
     def __init__(self):
         self.account = 0
         
+    

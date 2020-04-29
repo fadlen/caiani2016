@@ -19,6 +19,7 @@ class Model:
         self.numberhh = numberhh
         self.numberbanks = numberbanks
         self.numberfirma = numberfirma
+        self.year = 0
     #Creating Agents
     def create_hh(self):
         """
@@ -88,5 +89,6 @@ class Model:
             
     #Creating Markets
     
-        
-        
+    def labourmarket(self):
+        self.householdslist.    
+    

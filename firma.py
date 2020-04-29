@@ -20,7 +20,16 @@ class FirmA:
         self.account = 0
         self.labour = 1
         self.capitalgoods = 1
+        self.numberconsumproduct = 0
         
     def create_consumproduct(self):
+        consumeproduct.ConsumeProduct(self.labour, self.capitalproduct)
         
+    def buy_labour(self):
+        self.labour = 2
         
+    def getLabour(self):
+        return self.labour
+    
+    def getCapitalgoods(self):
+        return self.capitalgoods

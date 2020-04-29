@@ -17,4 +17,6 @@ class CentralBank:
     def __init__(self):
         self.account = 0
         self.exist = 1
+        
+        
     
